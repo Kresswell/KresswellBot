@@ -6,8 +6,8 @@ let handler = async (m, { conn }) => {
     let uptime = clockString(_uptime)
 
     m.reply(`
-┌─〔 Baymax Status 〕
-├ *${groups.length}* Group
+┌─〔 KRESSWELL'S STATS〕
+├ *${groups.length}* Groups
 ├ *${chats.length - groups.length}* Private Chat
 ├ *${Object.keys(global.db.data.users).length}* Users
 ├ *${conn.blocklist.length}* Blocked
