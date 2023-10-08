@@ -38,7 +38,7 @@ const defaultMenu = {
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
-💠 Owner: 𝕵𝔲𝔦𝔠𝔢 𝖂𝕽𝕷𝕯 𝑺𝑼𝑷𝑹𝑬𝑴𝑨𝑪𝒀ꫂ᭄⃟ 🦄
+💠 Owner: 𒀱ꪳ⃞⃝⃝⃝𝗞𝗥𝗘𝗦𝗦⃝⃝⃝⃞⃝⃞𝗪𝗘𝗟𝗟⃝⃝⃝⃞𒈞⃝⃝⃝ᬊ᭄
 
 👇🏻 For all commands tap Read more. Do not spam!
 
@@ -46,7 +46,7 @@ const defaultMenu = {
   header: '        *━━❰･%category･❱━━*',
   body: ' 💎 %cmd %islimit %isPremium',
   footer: ' ',
-  after: `💎 *BayMax Bot by 𝕵𝔲𝔦𝔠𝔢 𝖂𝕽𝕷𝕯 𝑺𝑼𝑷𝑹𝑬𝑴𝑨𝑪𝒀ꫂ᭄⃟🔥. Hope u are enjoying the bot 🐤* 
+  after: `💎 *KresswellBot by 𒀱ꪳ⃞⃝⃝⃝𝗞𝗥𝗘𝗦𝗦⃝⃝⃝⃞⃝⃞𝗪𝗘𝗟𝗟⃝⃝⃝⃞𒈞⃝⃝⃝ᬊ᭄. Don't stress your self😅Only master can use me🐤* 
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
