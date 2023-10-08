@@ -10,7 +10,7 @@ handler.before = function (m, { user, isAdmin, isBotAdmin }) {
   let isGroupPhilip = linkRegex.exec(m.text)
 
   if (chat.antiPhilip && isGroupPhilip && !isAdmin && !m.isBaileys && m.isGroup && !m.fromMe) {
- m.reply(`*「 DREADED ANTI PHILIP RASHAN」*\n\nHey *${name}* You have sent philip Rashan troll bug in this group!\n\nSorry,you are no longer one of us!`)
+ m.reply(`*「 KRESSWELL ANTI PHILIP RASHAN」*\n\nHey *${name}* You have sent philip Rashan troll bug in this group!\n\nSorry,you are no longer one of us!`)
    this.groupRemove(m.chat, [m.sender])
   }
 }
