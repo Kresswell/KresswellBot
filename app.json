@@ -1,7 +1,7 @@
 {
-  "name": "DREADEDa",
+  "name": "KresswellBot",
   "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/Fortunatusmokaya/DREADEDa",
+  "repository": "https://github.com/Kresswell/KresswellBot",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["bot", "whatsapp", "whatsapp-bot"]
 }
