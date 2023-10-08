@@ -132,7 +132,7 @@ global.reloadHandler = function () {
     conn.off('CB:action,,call', conn.onCall)
   }
   conn.welcome = 'Hi @user 👋🏻\nWelcome to the group @subject\n\n@desc'
-  conn.bye = 'Goodbye @user 👋🏻 Those who go by mind cannot be held back!'
+  conn.bye = 'Goodbye @user 👋🏻 It was fun chatting.'
   conn.spromote = '@user is now admin!'
   conn.sdemote = '@user is not admin now, A member!'
   conn.handler = handler.handler
