@@ -7,9 +7,9 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
   let isGroupLink = linkRegex.exec(m.text)
 
   if (chat.antiLink && isGroupLink) {
-    await m.reply(`*「 BAYMAX ANTI LINK 」*\n\nDetected *${await this.getName(m.sender)}* you have sent the group link!\n\nSorry you will be kicked out from this group byee!`)
+    await m.reply(`*「 KRESSWELL ANTI LINK 」*\n\nDetected *${await this.getName(m.sender)}* you have sent the group link!\n\nSorry you will be kicked out from this group bye!!`)
     if (isAdmin) return m.reply('*Hey sorry you\'re admin, you won\'t be kicked. haha..*')
-    if (!isBotAdmin) return m.reply('*Bot is not admin, how can it kick people -_-*')
+    if (!isBotAdmin) return m.reply('*KresswellBot is not admin, how can I kick people -_-*')
     let linkGC = ('https://chat.whatsapp.com/' + await this.groupInviteCode(m.chat))
     let isLinkThisGc = new RegExp(linkGC, 'i')
     let isgclink = isLinkThisGc.test(m.text)
